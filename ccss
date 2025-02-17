@@ -1,0 +1,10 @@
+function greeting(name,age) {
+ console.log(`hello,${name}`);
+ age();
+}
+
+function myFunc() {
+    console.log("i am a callback function")
+}
+
+greeting("daniz",myFunc)
